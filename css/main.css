@@ -1,0 +1,234 @@
+/* Navbar */
+
+.siteheader{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    margin: .625rem 5rem 0rem 7.8125rem
+}
+
+.siteheader__title {
+    color: #335576;
+
+}
+
+.siteheader__element{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.25rem 1.25rem 1.25rem 0rem;
+    margin-right: .5rem;
+    gap: 1rem;
+}
+
+span.hover-home{
+    border-bottom: .125rem solid #DB7A4E;
+    padding-bottom: .5rem
+}
+
+/* Diving Deeper - Underlined Nav Header */
+
+.siteheader__nav--hoverover {
+    display: inline-block;
+    position: relative;
+    color: #DB7A4E;
+    padding-bottom: .625rem;
+}
+
+.siteheader__nav--hoverover:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: .125rem;
+    bottom: 0rem;
+    left: 0;
+    background-color: #DB7A4E;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.siteheader__nav--hoverover:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/* Hero Section */
+
+.hero {
+    background-color: #FEFAF5;
+    display: flex;
+    padding: 0% 0% 0% 10%;
+    align-items:center
+    
+}
+
+.hero__text{
+    width: 60%;
+    text-align: left;
+    color: #335576;
+    padding: 0rem 0rem 1.875rem 0rem;
+}
+
+.hero__button{
+    background-color: #DB7A4E;
+    color: white;
+    size: large;
+    display: inline-flex;
+    border-radius: 1.5625rem;
+    padding: .5rem 1.875rem;
+    border: none;
+    cursor: pointer;
+}
+
+.hero__title {
+color: #335576;
+font-weight: bold;
+font-size: 2.5rem;
+padding: 0rem 6.25rem 1.25rem 0rem;
+text-align: left;
+}
+
+
+.hero__paragraph{
+    margin: 0rem 0rem .625rem 0rem;
+    text-align: left;
+}
+
+.hero__image {
+    width: 40%;
+    padding: 5rem 6.25rem 6.25rem 0rem;
+}
+
+#hero-image{
+    width: 100%;
+    height: 100%;
+}
+
+/* Recommendations */
+
+.recommendations-name{
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 0rem 2.5rem 0rem;
+}
+.recommendations-header-name{
+    color: #335576;
+    margin: .625rem 5rem .625rem 7.8125rem;
+    padding: 1.875rem 0rem 1.875rem 0rem;
+}
+
+.recommendations-state-countryname 
+{
+    display: inline-block;
+    background-repeat: no-repeat
+} 
+
+#hawaii-image, #iceland-image, #greece-image{
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    min-height: 12.5rem;
+    max-height: 21.875rem;
+    min-width: 12.5rem;
+    max-width: 21.875rem;
+    border-radius: .3125rem;
+    box-shadow: 0rem .25rem .25rem -0.0625rem rgba(0, 0, 0, .2);
+    border: .0625rem solid rgba(0, 0, 0, .2);
+    background-repeat: no-repeat;   
+}
+
+/* Diving Deeper - Highlight Reccomendations Cards*/
+#hawaii-image:hover, #iceland-image:hover, #greece-image:hover {  
+    border: .25rem solid #DB7A4E;
+
+}
+
+/* */
+
+.hawaii-blog {
+    margin-left: 20%;
+    position: relative;
+}
+
+.iceland-blog{
+    margin: 0rem 1.25rem 0rem 1.25rem;
+    position: relative;
+
+}
+
+.greece-blog{
+    margin-right: 20%;
+    position: relative;
+}
+
+.recommendations__card--text {
+color: white;
+position: absolute;
+bottom: .5rem;
+right: .625rem;
+}
+
+/* Footer */
+
+.lower-footer {
+    background-color: #FEFAF5;
+    padding: 2.5rem 0rem 1.25rem 0rem;
+}
+
+.lower-footer__container{
+    display: flex;
+    justify-content: space-around;
+    width: 68%;
+    margin: auto;
+}
+
+.lower-footer__contact,
+.lower-footer__hours,
+.lower-footer__social {
+    box-sizing: content-box;
+    color: #335576;
+    text-align: left;
+}
+
+.lower-footer__subheading {
+    padding: 0rem 0rem .9375rem .5625rem;
+}
+
+.lower-footer__information {
+    list-style: none;
+    display: inline-block;
+    padding-inline-start: 0%;
+    padding: 0rem 1.25rem 1.25rem .625rem;
+}
+
+.lower-footer__information--details{
+    color: #DB7A4E;
+    font-size: x-small;
+    text-align: left;
+    padding: 0rem 0rem .625rem 0rem;
+}
+
+.lower-footer__information-time {
+    font-size: small;
+    padding: 0rem 0rem .625rem 0rem;
+}
+
+.lower-footer__icon,
+.lower-footer__sociallink {
+    max-width: 1.563rem;
+    max-height: 1.563rem;
+    text-decoration: none;
+    background-size: contain;
+}
+
+.lower-footer__sociallink--header{
+margin-top: .8rem;
+
+}
+.lower-footer__sociallink{
+    margin-right: .9375rem;
+}

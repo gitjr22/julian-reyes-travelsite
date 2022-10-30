@@ -1,0 +1,151 @@
+/* Destination Headers */
+.destination-header{
+    background-image: url(../assets/hawaii.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 42.5rem;
+    max-height: 44.0625rem;
+    margin-bottom: 0%;
+}
+
+.destination-header__iceland{
+    background-image: url(../assets/iceland.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 42.5rem;
+    max-height: 44.0625rem;
+    margin-bottom: 0%;
+}
+
+.destination-header__greece{
+    background-image: url(../assets/greece.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 42.5rem;
+    max-height: 44.0625rem;
+    margin-bottom: 0%;
+}
+/* Destination Page */
+
+.destination-name{
+    display: flex;
+    justify-content: space-between;
+}
+#destination-header-name{
+    color: white;
+    font-size: 4.375rem;
+    margin: .625rem 5rem .625rem 5rem;
+    padding: 1.875rem 0rem 1.875rem 2.5rem;
+}
+
+.destination-state-countryname{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    min-height: 21.875rem;
+    max-height: 62.5rem;
+    min-width: 15rem;
+    max-width: 21.875rem;
+    border-radius: .3125rem;
+    box-shadow : 0 .3125rem .5625rem -0.0625rem;
+    background-color: white; 
+}
+
+.friday-blog {
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+.saturday-blog{
+    margin: 0rem 1.875rem 0rem 1.875rem;
+    margin-top: 5%;
+}
+
+.sunday-blog{
+    margin-top: 5%;
+}
+
+#destination__card--daytext {
+    color: black;
+    border-bottom: .1563rem solid black;
+    padding-top: .75rem;
+}
+
+.destination__card--list {
+    padding: 0rem .625rem 0rem .625rem
+}
+
+.destination__card--listname{
+    justify-content: space-around;
+    background-color: #FEFAF5;
+    list-style: none;
+    margin: 5% 1%;
+    padding: 7% 1%;
+    border-radius: .1875rem;
+    text-align: center;
+}
+
+/* Diving Deeper - Get Started */
+
+.destination-header__getstarted{
+    background-image: url(..//assets/Getstarted.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 42.5rem;
+    max-height: 44.0625rem;
+    margin-bottom: 0%;
+}
+
+.getinfo-box{
+    display: flex;
+}
+
+.getinfo-box__contactleft{
+flex-basis: 60%;
+padding: 2.5rem 3.75rem;
+color: white;
+}
+
+
+.getinfo-box__inputrow{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.25rem;
+}
+
+.getinfo-box__inputrow .getinfo-box__inputgroup {
+    flex-basis: 45%;
+}
+
+input{
+    width: 100%;
+    border:none;
+    border-bottom: .0625rem solid #ccc;
+    outline: none;
+    padding-bottom: .3125rem;
+}
+
+textarea{
+    width: 100%;
+    border: .0625rem solid #ccc;
+    outline: none;
+    padding: .625rem; 
+    box-sizing: border-box;
+}
+
+label{
+    margin-bottom:.375rem;
+    display: block;
+    color: #FEFAF5;
+}
+
+.getinfo-box__button{
+    background: #FEFAF5;
+    width: 6.25rem;
+    border:none;
+    outline: none;
+    color: #335576;
+    height: 2.1875rem;
+    border-radius: 1.875rem;
+    margin-top: 1.25rem;
+}
